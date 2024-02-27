@@ -1,0 +1,18 @@
+/* style for all body */
+body {
+    /* prevent user from scrolling */
+    overflow: hidden;
+}
+
+/* style for the canvas */
+canvas {
+    /* position absolute to allow it to overlap with other elements */
+    position: absolute;
+
+    /* make sure top - left corner is at html point of origin */
+    top: 0;
+    left: 0;
+
+    /* send to back with the z-index property */
+    z-index: -1;
+}
